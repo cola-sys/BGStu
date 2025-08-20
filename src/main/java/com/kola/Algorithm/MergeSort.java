@@ -36,9 +36,6 @@ public class MergeSort {
             temp[k++] = nums[j++];
         }
         k = 0;
-//        while(k < right){
-//            nums[left+k] = temp[k++];
-//        }
         for (k = 0; k < temp.length; k++) {
             nums[left + k] = temp[k];
         }
